@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="sbt: org.scala-native:test-interface_native0.4_2.13:0.4.16:jar" external-system-id="SBT">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-native/test-interface_native0.4_2.13/0.4.16/test-interface_native0.4_2.13-0.4.16.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$USER_HOME$/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-native/test-interface_native0.4_2.13/0.4.16/test-interface_native0.4_2.13-0.4.16-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$USER_HOME$/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-native/test-interface_native0.4_2.13/0.4.16/test-interface_native0.4_2.13-0.4.16-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

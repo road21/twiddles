@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module external.linked.project.id="coreJS [file:/Users/a.m.troitskiy/Develop/twiddles/]" external.linked.project.path="$MODULE_DIR$/../../core/js" external.root.project.path="$MODULE_DIR$/../.." external.system.id="SBT" type="JAVA_MODULE" version="4">
+  <component name="NewModuleRootManager" LANGUAGE_LEVEL="JDK_1_8">
+    <output url="file://$MODULE_DIR$/../../core/js/target/scala-2.13/classes" />
+    <output-test url="file://$MODULE_DIR$/../../core/js/target/scala-2.13/test-classes" />
+    <exclude-output />
+    <content url="file://$MODULE_DIR$/../../core/js">
+      <excludeFolder url="file://$MODULE_DIR$/../../core/js/target" />
+    </content>
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="module" module-name="core-sources" exported="" />
+    <orderEntry type="module" module-name="js-jvm-sources" exported="" />
+    <orderEntry type="module" module-name="js-native-sources" exported="" />
+    <orderEntry type="library" name="sbt: com.chuusai:shapeless_sjs1_2.13:2.3.10:jar" level="project" />
+    <orderEntry type="library" scope="TEST" name="sbt: org.scala-js:scala-js-macrotask-executor_sjs1_2.13:1.0.0:jar" level="project" />
+    <orderEntry type="library" name="sbt: org.scala-js:scalajs-javalib:1.14.0:jar" level="project" />
+    <orderEntry type="library" scope="TEST" name="sbt: org.scala-js:scalajs-junit-test-runtime_2.13:1.10.0:jar" level="project" />
+    <orderEntry type="library" name="sbt: org.scala-js:scalajs-library_2.13:1.14.0:jar" level="project" />
+    <orderEntry type="library" scope="TEST" name="sbt: org.scala-js:scalajs-test-bridge_2.13:1.14.0:jar" level="project" />
+    <orderEntry type="library" scope="TEST" name="sbt: org.scala-js:scalajs-test-interface_2.13:1.14.0:jar" level="project" />
+    <orderEntry type="library" name="sbt: org.scala-lang:scala-library:2.13.12:jar" level="project" />
+    <orderEntry type="library" scope="TEST" name="sbt: org.scalacheck:scalacheck_sjs1_2.13:1.16.0:jar" level="project" />
+    <orderEntry type="library" scope="TEST" name="sbt: org.scalameta:munit-scalacheck_sjs1_2.13:1.0.0-M6:jar" level="project" />
+    <orderEntry type="library" scope="TEST" name="sbt: org.scalameta:munit_sjs1_2.13:1.0.0-M6:jar" level="project" />
+    <orderEntry type="library" name="sbt: org.typelevel:cats-core_sjs1_2.13:2.10.0:jar" level="project" />
+    <orderEntry type="library" scope="TEST" name="sbt: org.typelevel:cats-effect-kernel_sjs1_2.13:3.3.14:jar" level="project" />
+    <orderEntry type="library" scope="TEST" name="sbt: org.typelevel:cats-effect-std_sjs1_2.13:3.3.14:jar" level="project" />
+    <orderEntry type="library" scope="TEST" name="sbt: org.typelevel:cats-effect_sjs1_2.13:3.3.14:jar" level="project" />
+    <orderEntry type="library" name="sbt: org.typelevel:cats-kernel_sjs1_2.13:2.10.0:jar" level="project" />
+    <orderEntry type="library" scope="TEST" name="sbt: org.typelevel:munit-cats-effect_sjs1_2.13:2.0.0-M3:jar" level="project" />
+    <orderEntry type="library" scope="TEST" name="sbt: org.typelevel:scalac-compat-annotation_2.13:0.1.2:jar" level="project" />
+    <orderEntry type="library" scope="TEST" name="sbt: org.typelevel:scalacheck-effect-munit_sjs1_2.13:2.0.0-M2:jar" level="project" />
+    <orderEntry type="library" scope="TEST" name="sbt: org.typelevel:scalacheck-effect_sjs1_2.13:2.0.0-M2:jar" level="project" />
+    <orderEntry type="module-library">
+      <library name="sbt: unmanaged-jars">
+        <CLASSES>
+          <root url="jar://$USER_HOME$/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-library/2.13.12/scala-library-2.13.12.jar!/" />
+          <root url="jar://$USER_HOME$/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/typelevel/scalac-compat-annotation_2.13/0.1.2/scalac-compat-annotation_2.13-0.1.2.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+  </component>
+</module>

@@ -11,7 +11,7 @@ This library provides the ability to work with twiddle lists for arbitrary types
 Artifacts are published for Scala 2.12, 2.13, and 3 and all platforms (JVM, Scala.js, and Scala Native).
 
 ```scala
-libraryDependencies += "org.typelevel" %%% "twiddles-core" % "0.6.0" // check Releases for the latest version
+libraryDependencies += "org.typelevel" %% "twiddles-core" % "0.7.2" // check Releases for the latest version
 ```
 
 ```scala
@@ -39,7 +39,7 @@ Invariant semigroupals are much more general than (covariant) functors, which me
 
 ```scala
 val fooOrdering = (summon[Ordering[Int]] *: summon[Ordering[String]]).to[Foo]
-// fooOrdering: Ordering[Foo] = scala.math.Ordering$$anon$1@39e8f45c
+// fooOrdering: Ordering[Foo] = scala.math.Ordering$$anon$1@1ffb9b9a
 ```
 
 ## Library Usage
@@ -66,13 +66,13 @@ object Decoder extends TwiddleSyntax[Decoder] {
 }
 
 val int: Decoder[Int] = _ => ???
-// int: Decoder[Int] = repl.MdocSession$MdocApp0$$Lambda$14766/0x0000000802b78ee8@47e1cada
+// int: Decoder[Int] = repl.MdocSession$MdocApp0$$Lambda$9049/0x0000000802268c90@151d4d35
 val string: Decoder[String] = _ => ???
-// string: Decoder[String] = repl.MdocSession$MdocApp0$$Lambda$14767/0x0000000802b79330@38938c5d
+// string: Decoder[String] = repl.MdocSession$MdocApp0$$Lambda$9050/0x00000008022690d8@49a05a8c
 
 case class Foo(x: Int, y: String)
 val fooDecoder = (int *: string).to[Foo]
-// fooDecoder: Decoder[Foo] = repl.MdocSession$$anon$8$$Lambda$14770/0x0000000802b7a000@613596db
+// fooDecoder: Decoder[Foo] = repl.MdocSession$$anon$8$$Lambda$9053/0x0000000802269f98@4f28b95d
 ```
 
 In this example, the `Decoder` type has an `Applicative` instance defined in its companion object (and `Applicative` extends `InvariantSemigroupal`), and the companion object extends `TwiddleSyntax`. The latter enables use of `*:` and `to` with `Decoder` values without adding explicit imports (that is, there's no need to import `org.typelevel.twiddles.syntax._` at call sites).

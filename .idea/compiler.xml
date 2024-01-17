@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <bytecodeTargetLevel>
+      <module name="coreJS" target="8" />
+      <module name="coreJVM" target="8" />
+      <module name="coreNative" target="8" />
+      <module name="docs" target="8" />
+      <module name="root" target="8" />
+      <module name="rootJS" target="8" />
+      <module name="rootJVM" target="8" />
+      <module name="rootNative" target="8" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="coreJS" options="-encoding utf8 -Xlint:all -encoding utf8 -Xlint:all --release 8" />
+      <module name="coreJVM" options="-encoding utf8 -Xlint:all -encoding utf8 -Xlint:all --release 8" />
+      <module name="coreNative" options="-encoding utf8 -Xlint:all -encoding utf8 -Xlint:all --release 8" />
+      <module name="docs" options="-encoding utf8 -Xlint:all -encoding utf8 -Xlint:all --release 8" />
+      <module name="root" options="-encoding utf8 -Xlint:all -encoding utf8 -Xlint:all --release 8" />
+      <module name="rootJS" options="-encoding utf8 -Xlint:all -encoding utf8 -Xlint:all --release 8" />
+      <module name="rootJVM" options="-encoding utf8 -Xlint:all -encoding utf8 -Xlint:all --release 8" />
+      <module name="rootNative" options="-encoding utf8 -Xlint:all -encoding utf8 -Xlint:all --release 8" />
+    </option>
+  </component>
+</project>

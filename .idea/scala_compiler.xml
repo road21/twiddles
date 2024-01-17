@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ScalaCompilerConfiguration">
+    <option name="incrementalityType" value="SBT" />
+    <profile name="sbt 1" modules="twiddles_6564" />
+    <profile name="sbt 2" modules="coreJS">
+      <option name="deprecationWarnings" value="true" />
+      <option name="uncheckedWarnings" value="true" />
+      <option name="featureWarnings" value="true" />
+      <parameters>
+        <parameter value="-P:scalajs:mapSourceURI:file:/Users/a.m.troitskiy/Develop/twiddles/-&gt;https://raw.githubusercontent.com/typelevel/twiddles/e1002ff6d62ad79e3e02fd31c741ff49c31f469c/" />
+        <parameter value="-encoding" />
+        <parameter value="UTF-8" />
+        <parameter value="-Wdead-code" />
+        <parameter value="-Wextra-implicit" />
+        <parameter value="-Wnumeric-widen" />
+        <parameter value="-Wunused" />
+        <parameter value="-Wvalue-discard" />
+        <parameter value="-Xlint:_,-implicit-recursion,-recurse-with-default,-unused,-byname-implicit" />
+        <parameter value="-Wconf:cat=scala3-migration:s" />
+        <parameter value="-Ybackend-parallelism" />
+        <parameter value="16" />
+        <parameter value="-Xsource:3" />
+        <parameter value="-release" />
+        <parameter value="8" />
+      </parameters>
+      <plugins>
+        <plugin path="$USER_HOME$/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-js/scalajs-compiler_2.13.12/1.14.0/scalajs-compiler_2.13.12-1.14.0.jar" />
+        <plugin path="$USER_HOME$/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/olegpy/better-monadic-for_2.13/0.3.1/better-monadic-for_2.13-0.3.1.jar" />
+        <plugin path="$USER_HOME$/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/typelevel/kind-projector_2.13.12/0.13.2/kind-projector_2.13.12-0.13.2.jar" />
+      </plugins>
+    </profile>
+    <profile name="sbt 3" modules="coreJVM,docs,rootJS,rootJVM,rootNative">
+      <option name="deprecationWarnings" value="true" />
+      <option name="uncheckedWarnings" value="true" />
+      <option name="featureWarnings" value="true" />
+      <parameters>
+        <parameter value="-encoding" />
+        <parameter value="UTF-8" />
+        <parameter value="-Wdead-code" />
+        <parameter value="-Wextra-implicit" />
+        <parameter value="-Wnumeric-widen" />
+        <parameter value="-Wunused" />
+        <parameter value="-Wvalue-discard" />
+        <parameter value="-Xlint:_,-implicit-recursion,-recurse-with-default,-unused,-byname-implicit" />
+        <parameter value="-Wconf:cat=scala3-migration:s" />
+        <parameter value="-Ybackend-parallelism" />
+        <parameter value="16" />
+        <parameter value="-Xsource:3" />
+        <parameter value="-release" />
+        <parameter value="8" />
+      </parameters>
+      <plugins>
+        <plugin path="$USER_HOME$/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/olegpy/better-monadic-for_2.13/0.3.1/better-monadic-for_2.13-0.3.1.jar" />
+        <plugin path="$USER_HOME$/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/typelevel/kind-projector_2.13.12/0.13.2/kind-projector_2.13.12-0.13.2.jar" />
+      </plugins>
+    </profile>
+    <profile name="sbt 4" modules="coreNative">
+      <option name="deprecationWarnings" value="true" />
+      <option name="uncheckedWarnings" value="true" />
+      <option name="featureWarnings" value="true" />
+      <parameters>
+        <parameter value="-P:scalanative:mapSourceURI:file:/Users/a.m.troitskiy/Develop/twiddles/-&gt;https://raw.githubusercontent.com/typelevel/twiddles/e1002ff6d62ad79e3e02fd31c741ff49c31f469c/" />
+        <parameter value="-encoding" />
+        <parameter value="UTF-8" />
+        <parameter value="-Wdead-code" />
+        <parameter value="-Wextra-implicit" />
+        <parameter value="-Wnumeric-widen" />
+        <parameter value="-Wunused" />
+        <parameter value="-Wvalue-discard" />
+        <parameter value="-Xlint:_,-implicit-recursion,-recurse-with-default,-unused,-byname-implicit" />
+        <parameter value="-Wconf:cat=scala3-migration:s" />
+        <parameter value="-Ybackend-parallelism" />
+        <parameter value="16" />
+        <parameter value="-Xsource:3" />
+        <parameter value="-release" />
+        <parameter value="8" />
+      </parameters>
+      <plugins>
+        <plugin path="$USER_HOME$/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-native/nscplugin_2.13.12/0.4.16/nscplugin_2.13.12-0.4.16.jar" />
+        <plugin path="$USER_HOME$/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/olegpy/better-monadic-for_2.13/0.3.1/better-monadic-for_2.13-0.3.1.jar" />
+        <plugin path="$USER_HOME$/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/typelevel/kind-projector_2.13.12/0.13.2/kind-projector_2.13.12-0.13.2.jar" />
+      </plugins>
+    </profile>
+    <profile name="sbt 5" modules="root">
+      <option name="deprecationWarnings" value="true" />
+      <option name="uncheckedWarnings" value="true" />
+      <option name="featureWarnings" value="true" />
+      <parameters>
+        <parameter value="-encoding" />
+        <parameter value="UTF-8" />
+        <parameter value="-Wunused:implicits" />
+        <parameter value="-Wunused:explicits" />
+        <parameter value="-Wunused:imports" />
+        <parameter value="-Wunused:locals" />
+        <parameter value="-Wunused:params" />
+        <parameter value="-Wunused:privates" />
+        <parameter value="-Wvalue-discard" />
+        <parameter value="-Ykind-projector:underscores" />
+        <parameter value="-java-output-version" />
+        <parameter value="8" />
+      </parameters>
+    </profile>
+  </component>
+</project>

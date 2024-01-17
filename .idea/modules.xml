@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/core-sources.iml" filepath="$PROJECT_DIR$/.idea/modules/core-sources.iml" group="twiddles-core" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/coreJS.iml" filepath="$PROJECT_DIR$/.idea/modules/coreJS.iml" group="twiddles-core" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/coreJVM.iml" filepath="$PROJECT_DIR$/.idea/modules/coreJVM.iml" group="twiddles-core" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/coreNative.iml" filepath="$PROJECT_DIR$/.idea/modules/coreNative.iml" group="twiddles-core" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/docs.iml" filepath="$PROJECT_DIR$/.idea/modules/docs.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/js-jvm-sources.iml" filepath="$PROJECT_DIR$/.idea/modules/js-jvm-sources.iml" group="twiddles-core" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/js-native-sources.iml" filepath="$PROJECT_DIR$/.idea/modules/js-native-sources.iml" group="twiddles-core" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/jvm-native-sources.iml" filepath="$PROJECT_DIR$/.idea/modules/jvm-native-sources.iml" group="twiddles-core" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/root.iml" filepath="$PROJECT_DIR$/.idea/modules/root.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/root-build.iml" filepath="$PROJECT_DIR$/.idea/modules/root-build.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/rootJS.iml" filepath="$PROJECT_DIR$/.idea/modules/rootJS.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/rootJVM.iml" filepath="$PROJECT_DIR$/.idea/modules/rootJVM.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/rootNative.iml" filepath="$PROJECT_DIR$/.idea/modules/rootNative.iml" />
+    </modules>
+  </component>
+</project>

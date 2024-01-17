@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module external.linked.project.id="coreNative [file:/Users/a.m.troitskiy/Develop/twiddles/]" external.linked.project.path="$MODULE_DIR$/../../core/native" external.root.project.path="$MODULE_DIR$/../.." external.system.id="SBT" type="JAVA_MODULE" version="4">
+  <component name="NewModuleRootManager" LANGUAGE_LEVEL="JDK_1_8">
+    <output url="file://$MODULE_DIR$/../../core/native/target/scala-2.13/classes" />
+    <output-test url="file://$MODULE_DIR$/../../core/native/target/scala-2.13/test-classes" />
+    <exclude-output />
+    <content url="file://$MODULE_DIR$/../../core/native">
+      <excludeFolder url="file://$MODULE_DIR$/../../core/native/target" />
+    </content>
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="module" module-name="core-sources" exported="" />
+    <orderEntry type="module" module-name="js-native-sources" exported="" />
+    <orderEntry type="module" module-name="jvm-native-sources" exported="" />
+    <orderEntry type="library" name="sbt: com.chuusai:shapeless_native0.4_2.13:2.3.10:jar" level="project" />
+    <orderEntry type="library" scope="TEST" name="sbt: io.github.cquiroz:cldr-api_native0.4_2.13:3.1.0:jar" level="project" />
+    <orderEntry type="library" scope="TEST" name="sbt: io.github.cquiroz:scala-java-locales_native0.4_2.13:1.4.0:jar" level="project" />
+    <orderEntry type="library" scope="TEST" name="sbt: io.github.cquiroz:scala-java-time_native0.4_2.13:2.4.0:jar" level="project" />
+    <orderEntry type="library" scope="TEST" name="sbt: org.portable-scala:portable-scala-reflect_native0.4_2.13:1.1.2:jar" level="project" />
+    <orderEntry type="library" name="sbt: org.scala-lang:scala-library:2.13.12:jar" level="project" />
+    <orderEntry type="library" name="sbt: org.scala-lang:scala-reflect:2.13.12:jar" level="project" />
+    <orderEntry type="library" name="sbt: org.scala-native:auxlib_native0.4_2.13:0.4.16:jar" level="project" />
+    <orderEntry type="library" name="sbt: org.scala-native:clib_native0.4_2.13:0.4.16:jar" level="project" />
+    <orderEntry type="library" name="sbt: org.scala-native:javalib_native0.4_2.13:0.4.16:jar" level="project" />
+    <orderEntry type="library" scope="TEST" name="sbt: org.scala-native:junit-runtime_native0.4_2.13:0.4.16:jar" level="project" />
+    <orderEntry type="library" name="sbt: org.scala-native:nativelib_native0.4_2.13:0.4.16:jar" level="project" />
+    <orderEntry type="library" name="sbt: org.scala-native:posixlib_native0.4_2.13:0.4.16:jar" level="project" />
+    <orderEntry type="library" name="sbt: org.scala-native:scalalib_native0.4_2.13:0.4.16:jar" level="project" />
+    <orderEntry type="library" scope="TEST" name="sbt: org.scala-native:test-interface-sbt-defs_native0.4_2.13:0.4.16:jar" level="project" />
+    <orderEntry type="library" scope="TEST" name="sbt: org.scala-native:test-interface_native0.4_2.13:0.4.16:jar" level="project" />
+    <orderEntry type="library" name="sbt: org.scala-native:windowslib_native0.4_2.13:0.4.16:jar" level="project" />
+    <orderEntry type="library" scope="TEST" name="sbt: org.scalacheck:scalacheck_native0.4_2.13:1.16.0:jar" level="project" />
+    <orderEntry type="library" scope="TEST" name="sbt: org.scalameta:munit-scalacheck_native0.4_2.13:1.0.0-M6:jar" level="project" />
+    <orderEntry type="library" scope="TEST" name="sbt: org.scalameta:munit_native0.4_2.13:1.0.0-M6:jar" level="project" />
+    <orderEntry type="library" name="sbt: org.typelevel:cats-core_native0.4_2.13:2.10.0:jar" level="project" />
+    <orderEntry type="library" scope="TEST" name="sbt: org.typelevel:cats-effect-kernel_native0.4_2.13:3.3.14:jar" level="project" />
+    <orderEntry type="library" scope="TEST" name="sbt: org.typelevel:cats-effect-std_native0.4_2.13:3.3.14:jar" level="project" />
+    <orderEntry type="library" scope="TEST" name="sbt: org.typelevel:cats-effect_native0.4_2.13:3.3.14:jar" level="project" />
+    <orderEntry type="library" name="sbt: org.typelevel:cats-kernel_native0.4_2.13:2.10.0:jar" level="project" />
+    <orderEntry type="library" scope="TEST" name="sbt: org.typelevel:munit-cats-effect_native0.4_2.13:2.0.0-M3:jar" level="project" />
+    <orderEntry type="library" scope="TEST" name="sbt: org.typelevel:scalac-compat-annotation_2.13:0.1.2:jar" level="project" />
+    <orderEntry type="library" scope="TEST" name="sbt: org.typelevel:scalacheck-effect-munit_native0.4_2.13:2.0.0-M2:jar" level="project" />
+    <orderEntry type="library" scope="TEST" name="sbt: org.typelevel:scalacheck-effect_native0.4_2.13:2.0.0-M2:jar" level="project" />
+    <orderEntry type="module-library">
+      <library name="sbt: unmanaged-jars">
+        <CLASSES>
+          <root url="jar://$USER_HOME$/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-library/2.13.12/scala-library-2.13.12.jar!/" />
+          <root url="jar://$USER_HOME$/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/typelevel/scalac-compat-annotation_2.13/0.1.2/scalac-compat-annotation_2.13-0.1.2.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+  </component>
+</module>
